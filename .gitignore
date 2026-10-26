@@ -1,0 +1,8 @@
+/vendor/
+/logs/*
+!/logs/.gitkeep
+.env
+*.env
+*.sql.dump
+*.csv
+set-env.ps1

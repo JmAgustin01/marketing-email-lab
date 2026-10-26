@@ -1,0 +1,14 @@
+{
+  "name": "student/sam-hybrid-promo-lab",
+  "description": "Hybrid promotional campaign laboratory (PHP, MySQL, Faker, SQS, Mailtrap)",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "aws/aws-sdk-php": "^3.300",
+    "phpmailer/phpmailer": "^6.9",
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "psr-4": { "Lab\\": "src/" }
+  }
+}
